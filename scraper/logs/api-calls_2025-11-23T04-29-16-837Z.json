@@ -1,0 +1,3762 @@
+[
+  {
+    "timestamp": "2025-11-23T04:29:16.838Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Model Details\"\n          such as Model overview, Organization developing the model, Model Version, Model Release Date, Model Version Progression, Model Architecture, Model Dependencies, Paper and relevant links, Model Distribution Forms. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:17.502Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Gemini models | Gemini API | Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/models",
+          "snippetLength": 4350
+        },
+        {
+          "title": "Gemini 3 Pro Model Card (Nov 2025)",
+          "url": "https://www.youtube.com/watch?v=hf59-PhO3do",
+          "snippetLength": 4075
+        },
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://web.archive.org/web/20251118111103if_/https:/storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 5163
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 5076
+        },
+        {
+          "title": "Gemini 3 Pro Model Card: Insights & Safety Evaluations (Nov 2025)",
+          "url": "https://www.studocu.com/en-gb/document/university-of-east-london/financial-accounting/gemini-3-pro-model-card-insights-safety-evaluations-nov-2025/146206142",
+          "snippetLength": 4880
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:17.503Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Model Details\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Model overview\n2. Organization developing the model\n3. Model Version\n4. Model Release Date\n5...."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 25578,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:24.455Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5575,
+        "completion_tokens": 343,
+        "total_tokens": 5918,
+        "prompt_tokens_details": {
+          "cached_tokens": 5504,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1287,
+      "responsePreview": "{\n  \"Model overview\": {\n    \"score\": 1,\n    \"explanation\": \"Gemini 3 Pro is now Google’s most advanced model for complex tasks, and can comprehend vast datasets, challenging problems from different information sources.\"\n  },\n  \"Organization developing the model\": {\n    \"score\": 1,\n    \"explanation\": \"Gemini 3 Pro was developed by Google.\"\n  },\n  \"Model Version\": {\n    \"score\": 1,\n    \"explanation\": \"Model card published: November, 2025\"\n  },\n  \"Model Release Date\": {\n    \"score\": 1,\n    \"explana"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:26.457Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Model Inputs & Outputs\"\n          such as Inputs, Outputs, Token Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:27.216Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://web.archive.org/web/20251118111103if_/https:/storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 4992
+        },
+        {
+          "title": "Understand and count tokens | Gemini API - Google AI for Developersai.google.dev › gemini-api › docs › tokens",
+          "url": "https://ai.google.dev/gemini-api/docs/tokens",
+          "snippetLength": 4385
+        },
+        {
+          "title": "Gemini 3 Pro Model Card",
+          "url": "https://www.youtube.com/watch?v=-XTNBIVXRGA",
+          "snippetLength": 4491
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 4668
+        },
+        {
+          "title": "Release notes | Gemini API - Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "snippetLength": 3892
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:27.218Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Model Inputs & Outputs\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Inputs\n2. Outputs\n3. Token Count\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: ..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 24141,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:30.072Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5520,
+        "completion_tokens": 131,
+        "total_tokens": 5651,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 455,
+      "responsePreview": "{\n  \"Inputs\": {\n    \"score\": 1,\n    \"explanation\": \"Text strings (e.g., a question, a prompt, document(s) to be summarized), images, audio, and video files, with a token context window of up to 1M.\"\n  },\n  \"Outputs\": {\n    \"score\": 1,\n    \"explanation\": \"Text, with a 64K token output.\"\n  },\n  \"Token Count\": {\n    \"score\": 1,\n    \"explanation\": \"The context window defines how much input you can provide and how much output the model can generate.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:32.072Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Model Data\"\n          such as Training Dataset, Training Data Processing, Knowledge Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:32.541Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://web.archive.org/web/20251118111103if_/https:/storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 5346
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 5239
+        },
+        {
+          "title": "Gemini 3 Pro Model Card: Insights & Safety Evaluations (Nov 2025)",
+          "url": "https://www.studocu.com/en-gb/document/university-of-east-london/financial-accounting/gemini-3-pro-model-card-insights-safety-evaluations-nov-2025/146206142",
+          "snippetLength": 5084
+        },
+        {
+          "title": "Release notes | Gemini API - Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "snippetLength": 4040
+        },
+        {
+          "title": "Gemini (language model) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "snippetLength": 4520
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:32.541Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Model Data\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Training Dataset\n2. Training Data Processing\n3. Knowledge Count\n  Aggregated Resources:\n  Resour..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 26110,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:35.458Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5576,
+        "completion_tokens": 124,
+        "total_tokens": 5700,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 544,
+      "responsePreview": "{\n  \"Training Dataset\": {\n    \"score\": 1,\n    \"explanation\": \"The pre-training dataset was a large-scale, diverse collection of data encompassing a wide range of domains and modalities.\"\n  },\n  \"Training Data Processing\": {\n    \"score\": 1,\n    \"explanation\": \"Data filtering and preprocessing included techniques such as deduplication, honoring robots.txt, safety filtering in-line with Google's commitment to advancing AI safely and responsibly.\"\n  },\n  \"Knowledge Count\": {\n    \"score\": 0,\n    \"exp"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:37.460Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Model Implementation and Sustainability\"\n          such as Hardware Used During Training & Inference, Software Frameworks & Tooling, Energy Use/ Sustainability Metrics. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:37.933Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://ia601703.us.archive.org/16/items/gemini-3-pro-model-card/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 5187
+        },
+        {
+          "title": "Gemini models | Gemini API | Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/models",
+          "snippetLength": 4355
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 5531
+        },
+        {
+          "title": "Gemini (language model) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "snippetLength": 4839
+        },
+        {
+          "title": "Gemini 3 Pro Model Card: Insights & Safety Evaluations (Nov 2025)",
+          "url": "https://www.studocu.com/en-gb/document/university-of-east-london/financial-accounting/gemini-3-pro-model-card-insights-safety-evaluations-nov-2025/146206142",
+          "snippetLength": 5019
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:37.934Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Model Implementation and Sustainability\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Hardware Used During Training & Inference\n2. Software Frameworks & ..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 26879,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:41.422Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5616,
+        "completion_tokens": 123,
+        "total_tokens": 5739,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 482,
+      "responsePreview": "{\n  \"Hardware Used During Training & Inference\": {\n    \"score\": 1,\n    \"explanation\": \"Gemini 3 Pro was trained using Google's Tensor Processing Units (TPUs).\"\n  },\n  \"Software Frameworks & Tooling\": {\n    \"score\": 1,\n    \"explanation\": \"Training was done using JAX and ML Pathways.\"\n  },\n  \"Energy Use/ Sustainability Metrics\": {\n    \"score\": 1,\n    \"explanation\": \"The efficiencies gained through the use of TPUs are aligned with Google's commitment to operate sustainably.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:43.424Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Intended Use\"\n          such as Primary intended uses, Primary intended users, Out-of-scope use cases. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:44.116Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Gemini models | Gemini API | Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/models",
+          "snippetLength": 4446
+        },
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://web.archive.org/web/20251118111103if_/https:/storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 4959
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 4744
+        },
+        {
+          "title": "Gemini (language model) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "snippetLength": 4523
+        },
+        {
+          "title": "Gemini 3 Pro Model Card: Insights & Safety Evaluations (Nov 2025)",
+          "url": "https://www.studocu.com/en-gb/document/university-of-east-london/financial-accounting/gemini-3-pro-model-card-insights-safety-evaluations-nov-2025/146206142",
+          "snippetLength": 5019
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:44.117Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Intended Use\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Primary intended uses\n2. Primary intended users\n3. Out-of-scope use cases\n  Aggregated Resourc..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 25584,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:47.286Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5580,
+        "completion_tokens": 134,
+        "total_tokens": 5714,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 559,
+      "responsePreview": "{\n  \"Primary intended uses\": {\n    \"score\": 1,\n    \"explanation\": \"Gemini 3 Pro is capable of helping with real-world complexity, solving problems that require enhanced reasoning and intelligence, creativity, strategic planning and making improvements step-by-step.\"\n  },\n  \"Primary intended users\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Out-of-scope use cases\": {\n    \"score\": 1,\n    \"explanation\": \"the model should not be integrated into certain systems (also fo"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:49.288Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Critical Risk\"\n          such as CBRN (Chemical, Biological, Radiological or Nuclear), Cyber Risk, Harmful Manipulation, Child Safety Evaluations, Privacy Risks. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:49.947Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Gemini 3 Pro Model Card (Nov 2025)",
+          "url": "https://www.youtube.com/watch?v=hf59-PhO3do",
+          "snippetLength": 4252
+        },
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://web.archive.org/web/20251118111103if_/https:/storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 4943
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 5158
+        },
+        {
+          "title": "Gemini 3 Pro Model Card: Insights & Safety Evaluations (Nov 2025)",
+          "url": "https://www.studocu.com/en-gb/document/university-of-east-london/financial-accounting/gemini-3-pro-model-card-insights-safety-evaluations-nov-2025/146206142",
+          "snippetLength": 5203
+        },
+        {
+          "title": "Gemini (language model) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "snippetLength": 4776
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:49.947Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Critical Risk\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. CBRN (Chemical, Biological, Radiological or Nuclear)\n2. Cyber Risk\n3. Harmful Manipulation\n4...."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 26306,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:54.151Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5586,
+        "completion_tokens": 178,
+        "total_tokens": 5764,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 634,
+      "responsePreview": "{\n  \"CBRN (Chemical, Biological, Radiological or Nuclear)\": {\n    \"score\": 1,\n    \"explanation\": \"The model hit uplift level one, but the CCL was not reached.\"\n  },\n  \"Cyber Risk\": {\n    \"score\": 1,\n    \"explanation\": \"Cyber security is also uplift level one. So the CCL was not reached.\"\n  },\n  \"Harmful Manipulation\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Child Safety Evaluations\": {\n    \"score\": 1,\n    \"explanation\": \"For child safety evaluations, Gemini 3 Pro"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:56.153Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Safety Evaluation\"\n          such as Refusals, Disallowed Content Handling, Sycophancy, Jailbreak, Hallucinations, Deception Behaviors, Fairness & Bias Evaluations (incl. BBQ), Adversarial Robustness, Red Teaming Results. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:56.729Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://web.archive.org/web/20251118111103if_/https:/storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 4943
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 5059
+        },
+        {
+          "title": "Gemini 3 Pro Model Card: Insights & Safety Evaluations (Nov 2025)",
+          "url": "https://www.studocu.com/en-gb/document/university-of-east-london/financial-accounting/gemini-3-pro-model-card-insights-safety-evaluations-nov-2025/146206142",
+          "snippetLength": 5426
+        },
+        {
+          "title": "Safety guidance | Gemini API | Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/safety-guidance",
+          "snippetLength": 5380
+        },
+        {
+          "title": "Gemini 3 Pro Model Card",
+          "url": "https://www.youtube.com/watch?v=-XTNBIVXRGA",
+          "snippetLength": 4790
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:29:56.729Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Safety Evaluation\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Refusals\n2. Disallowed Content Handling\n3. Sycophancy\n4. Jailbreak\n5. Hallucinations\n6. D..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 27613,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:04.996Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5625,
+        "completion_tokens": 410,
+        "total_tokens": 6035,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1666,
+      "responsePreview": "{\n  \"Refusals\": {\n    \"score\": 1,\n    \"explanation\": \"Overall, Gemini 3 Pro outperforms Gemini 2.5 Pro across both safety and tone, while keeping unjustified refusals low.\"\n  },\n  \"Disallowed Content Handling\": {\n    \"score\": 1,\n    \"explanation\": \"Gemini's safety policies aim to prevent our Generative AI models from generating harmful content, including: Content related to child sexual abuse material and exploitation.\"\n  },\n  \"Sycophancy\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention t"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:06.998Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Gemini 3 Pro by Google, focusing on \"Risk Mitigations\"\n          such as Risk Mitigations. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Google and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:07.460Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Gemini 3 Pro Model Card (Nov 2025)",
+          "url": "https://www.youtube.com/watch?v=hf59-PhO3do",
+          "snippetLength": 4091
+        },
+        {
+          "title": "[Gemini 3 Pro] External Model Card - November 18, 2025 - v2",
+          "url": "https://web.archive.org/web/20251118111103if_/https:/storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+          "snippetLength": 4913
+        },
+        {
+          "title": "multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "url": "https://huggingface.co/datasets/multimodalart/google-gemini-3-pro-pre-release-model-card",
+          "snippetLength": 5384
+        },
+        {
+          "title": "Release notes | Gemini API - Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog",
+          "snippetLength": 3649
+        },
+        {
+          "title": "Gemini 3 Pro Model Card: Insights & Safety Evaluations (Nov 2025)",
+          "url": "https://www.studocu.com/en-gb/document/university-of-east-london/financial-accounting/gemini-3-pro-model-card-insights-safety-evaluations-nov-2025/146206142",
+          "snippetLength": 5183
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:07.460Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Gemini 3 Pro, specifically the \"Risk Mitigations\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Risk Mitigations\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: https://www.youtube.co..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 25035,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:09.209Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5598,
+        "completion_tokens": 55,
+        "total_tokens": 5653,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 242,
+      "responsePreview": "{\n  \"Risk Mitigations\": {\n    \"score\": 1,\n    \"explanation\": \"Safety and responsibility was built into Gemini 3 Pro throughout the training and deployment lifecycle, including pre-training, post-training, and product-level mitigations.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:14.212Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Model Details\"\n          such as Model overview, Organization developing the model, Model Version, Model Release Date, Model Version Progression, Model Architecture, Model Dependencies, Paper and relevant links, Model Distribution Forms. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:14.771Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Welcome to the xAI documentation",
+          "url": "https://docs.x.ai/docs/models/grok-4-0709",
+          "snippetLength": 1584
+        },
+        {
+          "title": "Overview | xAI Docs",
+          "url": "https://docs.x.ai/docs/overview",
+          "snippetLength": 1002
+        },
+        {
+          "title": "Grok 4 - AI Model Details",
+          "url": "https://simtheory.ai/model-card/grok-4/",
+          "snippetLength": 593
+        },
+        {
+          "title": "xAI Grok 4 - Oracle Cloud Infrastructure Documentation",
+          "url": "https://docs.public.content.oci.oraclecloud.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4126
+        },
+        {
+          "title": "xAI Grok 4",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4138
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:14.771Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Model Details\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Model overview\n2. Organization developing the model\n3. Model Version\n4. Model Release Date\n5. Model..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 13287,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:20.363Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 3196,
+        "completion_tokens": 329,
+        "total_tokens": 3525,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1189,
+      "responsePreview": "{\n  \"Model overview\": {\n    \"score\": 1,\n    \"explanation\": \"Grok 4 is our flagship AI model designed to deliver truthful, insightful answers.\"\n  },\n  \"Organization developing the model\": {\n    \"score\": 1,\n    \"explanation\": \"The xAI Grok models are hosted in an OCI data center, in a tenancy provisioned for xAI.\"\n  },\n  \"Model Version\": {\n    \"score\": 1,\n    \"explanation\": \"xAI Grok 4 has better performance than its predecessor, Grok 3.\"\n  },\n  \"Model Release Date\": {\n    \"score\": 1,\n    \"explana"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:22.365Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Model Inputs & Outputs\"\n          such as Inputs, Outputs, Token Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:23.015Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Welcome to the xAI documentation",
+          "url": "https://docs.x.ai/docs/models/grok-4-0709",
+          "snippetLength": 1584
+        },
+        {
+          "title": "Grok 4 Model Card",
+          "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+          "snippetLength": 4678
+        },
+        {
+          "title": "xAI Grok 4",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4270
+        },
+        {
+          "title": "xAI Grok 4 - Oracle Cloud Infrastructure Documentation",
+          "url": "https://docs.public.content.oci.oraclecloud.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4256
+        },
+        {
+          "title": "Grok 4 - API, Providers, Stats",
+          "url": "https://openrouter.ai/x-ai/grok-4",
+          "snippetLength": 690
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:23.015Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Model Inputs & Outputs\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Inputs\n2. Outputs\n3. Token Count\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: https:..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 17123,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:25.075Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4000,
+        "completion_tokens": 98,
+        "total_tokens": 4098,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 344,
+      "responsePreview": "{\n  \"Inputs\": {\n    \"score\": 1,\n    \"explanation\": \"You are charged for each token used when making calls to our API.\"\n  },\n  \"Outputs\": {\n    \"score\": 1,\n    \"explanation\": \"Return responses in a specific, organized formats.\"\n  },\n  \"Token Count\": {\n    \"score\": 1,\n    \"explanation\": \"maximum prompt + response length is 128,000 tokens\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:27.077Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Model Data\"\n          such as Training Dataset, Training Data Processing, Knowledge Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:27.939Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Grok 4 Model Card",
+          "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+          "snippetLength": 4559
+        },
+        {
+          "title": "[PDF] Grok 4 Fast Model Card - xAI",
+          "url": "https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf",
+          "snippetLength": 4594
+        },
+        {
+          "title": "xAI Grok 4",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4138
+        },
+        {
+          "title": "Grok 4: Tests, Features, Benchmarks, Access & More",
+          "url": "https://www.datacamp.com/blog/grok-4",
+          "snippetLength": 4463
+        },
+        {
+          "title": "Grok 4: Testing Grok 4 with xAI API in Python - A Guide - Walter Pinem",
+          "url": "https://walterpinem.com/grok-4-xai-api-python/",
+          "snippetLength": 5747
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:27.940Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Model Data\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Training Dataset\n2. Training Data Processing\n3. Knowledge Count\n  Aggregated Resources:\n  Resource 1:\n..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 25160,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:30.645Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5508,
+        "completion_tokens": 145,
+        "total_tokens": 5653,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 647,
+      "responsePreview": "{\n  \"Training Dataset\": {\n    \"score\": 1,\n    \"explanation\": \"Grok 4 is first pre-trained with a data recipe that includes publicly available Internet data, data produced by third-parties for xAI...\"\n  },\n  \"Training Data Processing\": {\n    \"score\": 1,\n    \"explanation\": \"We perform data filtering procedures on the training data, such as de-duplication and classification, to ensure data quality and safety prior to training.\"\n  },\n  \"Knowledge Count\": {\n    \"score\": 1,\n    \"explanation\": \"The mod"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:32.647Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Model Implementation and Sustainability\"\n          such as Hardware Used During Training & Inference, Software Frameworks & Tooling, Energy Use/ Sustainability Metrics. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:33.090Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Welcome to the xAI documentation",
+          "url": "https://docs.x.ai/docs/models/grok-4-0709",
+          "snippetLength": 1584
+        },
+        {
+          "title": "Grok 4 Model Card",
+          "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+          "snippetLength": 4795
+        },
+        {
+          "title": "xAI Grok 4",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4325
+        },
+        {
+          "title": "xAI Grok 4 - Oracle Cloud Infrastructure Documentation",
+          "url": "https://docs.public.content.oci.oraclecloud.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4312
+        },
+        {
+          "title": "Grok 4: Tests, Features, Benchmarks, Access & More",
+          "url": "https://www.datacamp.com/blog/grok-4",
+          "snippetLength": 4475
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:33.090Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Model Implementation and Sustainability\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Hardware Used During Training & Inference\n2. Software Frameworks & Toolin..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 21293,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:36.028Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4930,
+        "completion_tokens": 120,
+        "total_tokens": 5050,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 473,
+      "responsePreview": "{\n  \"Hardware Used During Training & Inference\": {\n    \"score\": 1,\n    \"explanation\": \"Grok 4 improves significantly over previous versions thanks mostly to more compute—both during training and inference.\"\n  },\n  \"Software Frameworks & Tooling\": {\n    \"score\": 1,\n    \"explanation\": \"Grok 4 is accessible through the xAI API and supports function calling.\"\n  },\n  \"Energy Use/ Sustainability Metrics\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:38.030Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Intended Use\"\n          such as Primary intended uses, Primary intended users, Out-of-scope use cases. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:38.555Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Welcome to the xAI documentation",
+          "url": "https://docs.x.ai/docs/models/grok-4-0709",
+          "snippetLength": 1584
+        },
+        {
+          "title": "Grok 4 Model Card",
+          "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+          "snippetLength": 4796
+        },
+        {
+          "title": "xAI Grok 4",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4192
+        },
+        {
+          "title": "xAI Grok 4 - Oracle Cloud Infrastructure Documentation",
+          "url": "https://docs.public.content.oci.oraclecloud.com/en-us/iaas/Content/generative-ai/xai-grok-4.htm",
+          "snippetLength": 4126
+        },
+        {
+          "title": "grok-4 | AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/xai/grok-4",
+          "snippetLength": 4350
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:38.555Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Intended Use\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Primary intended uses\n2. Primary intended users\n3. Out-of-scope use cases\n  Aggregated Resources:\n  ..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 20787,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:41.558Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4917,
+        "completion_tokens": 134,
+        "total_tokens": 5051,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 532,
+      "responsePreview": "{\n  \"Primary intended uses\": {\n    \"score\": 1,\n    \"explanation\": \"Grok 4 excels at enterprise use cases such as data extraction, coding, and summarizing text.\"\n  },\n  \"Primary intended users\": {\n    \"score\": 1,\n    \"explanation\": \"Grok 4 is deployed in both the consumer-facing applications and through an enterprise use-focused API.\"\n  },\n  \"Out-of-scope use cases\": {\n    \"score\": 1,\n    \"explanation\": \"We categorize these safety-relevant behaviors as: abuse potential, concerning propensities, a"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:43.558Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Critical Risk\"\n          such as CBRN (Chemical, Biological, Radiological or Nuclear), Cyber Risk, Harmful Manipulation, Child Safety Evaluations, Privacy Risks. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:44.135Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Grok 4 Model Card",
+          "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+          "snippetLength": 4885
+        },
+        {
+          "title": "[PDF] Grok 4 Fast Model Card - xAI",
+          "url": "https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf",
+          "snippetLength": 4974
+        },
+        {
+          "title": "xAI - AI Safety Claims Analysis",
+          "url": "https://aisafetyclaims.org/companies/xai",
+          "snippetLength": 2749
+        },
+        {
+          "title": "Grok 4 Without Guardrails? Total Safety Failure. We Tested ... - SPLX",
+          "url": "https://splx.ai/blog/grok-4-security-testing",
+          "snippetLength": 4566
+        },
+        {
+          "title": "2025 02 20-RMF-Draft | PDF | Artificial Intelligence",
+          "url": "https://www.scribd.com/document/844599804/2025-02-20-RMF-Draft",
+          "snippetLength": 5323
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:44.135Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Critical Risk\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. CBRN (Chemical, Biological, Radiological or Nuclear)\n2. Cyber Risk\n3. Harmful Manipulation\n4. Child..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 24246,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:48.009Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5160,
+        "completion_tokens": 207,
+        "total_tokens": 5367,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 788,
+      "responsePreview": "{\n  \"CBRN (Chemical, Biological, Radiological or Nuclear)\": {\n    \"score\": 1,\n    \"explanation\": \"We place further emphasis on refusing requests concerning the development of CBRN or cyber weapons.\"\n  },\n  \"Cyber Risk\": {\n    \"score\": 1,\n    \"explanation\": \"Conducting cyber attacks, including ransomware and DDoS attacks.\"\n  },\n  \"Harmful Manipulation\": {\n    \"score\": 1,\n    \"explanation\": \"We aim to reduce the risk of severe, large-scale harms to people, property, and society from AI.\"\n  },\n  \"C"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:50.010Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Safety Evaluation\"\n          such as Refusals, Disallowed Content Handling, Sycophancy, Jailbreak, Hallucinations, Deception Behaviors, Fairness & Bias Evaluations (incl. BBQ), Adversarial Robustness, Red Teaming Results. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:50.484Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Grok 4 Model Card",
+          "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+          "snippetLength": 5120
+        },
+        {
+          "title": "Grok 4.1 Model Card",
+          "url": "https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf",
+          "snippetLength": 4578
+        },
+        {
+          "title": "Grok 4 Without Guardrails? Total Safety Failure. We Tested ... - SPLX",
+          "url": "https://splx.ai/blog/grok-4-security-testing",
+          "snippetLength": 4621
+        },
+        {
+          "title": "Grok (chatbot) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)",
+          "snippetLength": 4844
+        },
+        {
+          "title": "Grok 4 Security Report - AI Red Teaming Results | Promptfoo",
+          "url": "https://promptfoo.dev/models/reports/grok-4",
+          "snippetLength": 5370
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:50.484Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Safety Evaluation\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Refusals\n2. Disallowed Content Handling\n3. Sycophancy\n4. Jailbreak\n5. Hallucinations\n6. Decepti..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 26305,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:56.111Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5557,
+        "completion_tokens": 392,
+        "total_tokens": 5949,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1515,
+      "responsePreview": "{\n  \"Refusals\": {\n    \"score\": 1,\n    \"explanation\": \"Our refusal policy centers on refusing requests with a clear intent to violate the law.\"\n  },\n  \"Disallowed Content Handling\": {\n    \"score\": 1,\n    \"explanation\": \"We employ input filters to reject specific classes of sensitive requests, such as those involving bioweapons, chemical weapons, self-harm, and child sexual abuse material.\"\n  },\n  \"Sycophancy\": {\n    \"score\": 1,\n    \"explanation\": \"We focus on minimizing both the rate at which it "
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:58.113Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Grok 4 by xAI, focusing on \"Risk Mitigations\"\n          such as Risk Mitigations. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from xAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:58.552Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Grok 4 Model Card",
+          "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+          "snippetLength": 4808
+        },
+        {
+          "title": "Grok 4.1 Model Card",
+          "url": "https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf",
+          "snippetLength": 4399
+        },
+        {
+          "title": "Grok security: prompt injection risks and mitigation strategies ...",
+          "url": "https://www.datastudios.org/post/grok-security-prompt-injection-risks-and-mitigation-strategies-in-2025",
+          "snippetLength": 5078
+        },
+        {
+          "title": "grok-4 | AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/xai/grok-4",
+          "snippetLength": 4221
+        },
+        {
+          "title": "A curated list of resources for Grok, the AI developed by xAI - GitHub",
+          "url": "https://github.com/milisp/awesome-grok",
+          "snippetLength": 4383
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:58.553Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Grok 4, specifically the \"Risk Mitigations\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Risk Mitigations\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: https://data.x.ai/2025-08-20..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 24543,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:30:59.784Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5518,
+        "completion_tokens": 45,
+        "total_tokens": 5563,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 158,
+      "responsePreview": "{\n  \"Risk Mitigations\": {\n    \"score\": 1,\n    \"explanation\": \"We believe that Grok 4 overall presents a low risk for malicious use and loss of control.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:04.786Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Model Details\"\n          such as Model overview, Organization developing the model, Model Version, Model Release Date, Model Version Progression, Model Architecture, Model Dependencies, Paper and relevant links, Model Distribution Forms. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:05.307Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "GPT-5 API docs - OpenAI Platform",
+          "url": "https://platform.openai.com/docs/models/gpt-5",
+          "snippetLength": 2516
+        },
+        {
+          "title": "Models - OpenAI API",
+          "url": "https://platform.openai.com/docs/models",
+          "snippetLength": 3977
+        },
+        {
+          "title": "gpt-5 - AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/openai/gpt-5",
+          "snippetLength": 3847
+        },
+        {
+          "title": "GPT-5 - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GPT-5",
+          "snippetLength": 4243
+        },
+        {
+          "title": "GPT-5: A Technical Analysis of Its Evolution & Features",
+          "url": "https://cirra.ai/articles/pdfs/gpt-5-technical-overview.pdf",
+          "snippetLength": 4522
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:05.307Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Model Details\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Model overview\n2. Organization developing the model\n3. Model Version\n4. Model Release Date\n5. Model ..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 20917,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:15.414Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5248,
+        "completion_tokens": 363,
+        "total_tokens": 5611,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1340,
+      "responsePreview": "{\n  \"Model overview\": {\n    \"score\": 1,\n    \"explanation\": \"OpenAI’s most advanced (and the most capable coding) model as of August 2025.\"\n  },\n  \"Organization developing the model\": {\n    \"score\": 1,\n    \"explanation\": \"GPT-5 is a multimodal large language model developed by OpenAI.\"\n  },\n  \"Model Version\": {\n    \"score\": 1,\n    \"explanation\": \"GPT-5 is the latest generation in the GPT series of large language models.\"\n  },\n  \"Model Release Date\": {\n    \"score\": 1,\n    \"explanation\": \"GPT-5 was"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:17.416Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Model Inputs & Outputs\"\n          such as Inputs, Outputs, Token Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:17.913Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "GPT-5 API docs - OpenAI Platform",
+          "url": "https://platform.openai.com/docs/models/gpt-5",
+          "snippetLength": 2516
+        },
+        {
+          "title": "Models - OpenAI API",
+          "url": "https://platform.openai.com/docs/models",
+          "snippetLength": 3880
+        },
+        {
+          "title": "gpt-5 - AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/openai/gpt-5",
+          "snippetLength": 3818
+        },
+        {
+          "title": "GPT-5 Model Card - PromptHub",
+          "url": "https://www.prompthub.us/models/gpt-5",
+          "snippetLength": 1382
+        },
+        {
+          "title": "Introducing GPT‑5 for Developers _ OpenAI",
+          "url": "https://www.scribd.com/document/898922774/Introducing-GPT-5-for-Developers-OpenAI",
+          "snippetLength": 3380
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:17.913Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Model Inputs & Outputs\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Inputs\n2. Outputs\n3. Token Count\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: https:/..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 16600,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:22.490Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4494,
+        "completion_tokens": 105,
+        "total_tokens": 4599,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 344,
+      "responsePreview": "{\n  \"Inputs\": {\n    \"score\": 1,\n    \"explanation\": \"GPT-5 supports multimodal inputs, including images.\"\n  },\n  \"Outputs\": {\n    \"score\": 1,\n    \"explanation\": \"It can generate up to 128,000 tokens in a single response.\"\n  },\n  \"Token Count\": {\n    \"score\": 1,\n    \"explanation\": \"GPT-5 supports a context window of up to 400,000 tokens.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:24.492Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Model Data\"\n          such as Training Dataset, Training Data Processing, Knowledge Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:25.182Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "GPT-5 API docs - OpenAI Platform",
+          "url": "https://platform.openai.com/docs/models/gpt-5",
+          "snippetLength": 2516
+        },
+        {
+          "title": "Models - OpenAI API",
+          "url": "https://platform.openai.com/docs/models",
+          "snippetLength": 3859
+        },
+        {
+          "title": "GPT-5 - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GPT-5",
+          "snippetLength": 4342
+        },
+        {
+          "title": "GPT-5 (2025) – Dr Alan D. Thompson",
+          "url": "https://lifearchitect.ai/gpt-5/",
+          "snippetLength": 4375
+        },
+        {
+          "title": "gpt-5 - AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/openai/gpt-5",
+          "snippetLength": 3776
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:25.182Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Model Data\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Training Dataset\n2. Training Data Processing\n3. Knowledge Count\n  Aggregated Resources:\n  Resource 1:\nT..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 20486,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:28.279Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5140,
+        "completion_tokens": 120,
+        "total_tokens": 5260,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 497,
+      "responsePreview": "{\n  \"Training Dataset\": {\n    \"score\": 1,\n    \"explanation\": \"Pretraining used a large-scale multilingual dataset of books, articles, web pages, academic papers, and licensed sources.\"\n  },\n  \"Training Data Processing\": {\n    \"score\": 1,\n    \"explanation\": \"Its training process involved three stages: unsupervised pretraining, supervised fine-tuning, and reinforcement learning from human feedback.\"\n  },\n  \"Knowledge Count\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:30.280Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Model Implementation and Sustainability\"\n          such as Hardware Used During Training & Inference, Software Frameworks & Tooling, Energy Use/ Sustainability Metrics. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:30.916Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Models - OpenAI API",
+          "url": "https://platform.openai.com/docs/models",
+          "snippetLength": 3859
+        },
+        {
+          "title": "GPT-5 API docs - OpenAI Platform",
+          "url": "https://platform.openai.com/docs/models/gpt-5",
+          "snippetLength": 2516
+        },
+        {
+          "title": "Products and applications of OpenAI - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Products_and_applications_of_OpenAI",
+          "snippetLength": 3972
+        },
+        {
+          "title": "gpt-5 - AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/openai/gpt-5",
+          "snippetLength": 3887
+        },
+        {
+          "title": "GPT-5 (2025) – Dr Alan D. Thompson",
+          "url": "https://lifearchitect.ai/gpt-5/",
+          "snippetLength": 4511
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:30.916Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Model Implementation and Sustainability\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Hardware Used During Training & Inference\n2. Software Frameworks & Tooling..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 20501,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:33.893Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5227,
+        "completion_tokens": 115,
+        "total_tokens": 5342,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 454,
+      "responsePreview": "{\n  \"Hardware Used During Training & Inference\": {\n    \"score\": 1,\n    \"explanation\": \"OpenAI has recently begun training its next frontier model and we anticipate the resulting systems to bring us to the next level of capabilities.\"\n  },\n  \"Software Frameworks & Tooling\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Energy Use/ Sustainability Metrics\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:35.895Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Intended Use\"\n          such as Primary intended uses, Primary intended users, Out-of-scope use cases. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:36.504Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "GPT-5 API docs - OpenAI Platform",
+          "url": "https://platform.openai.com/docs/models/gpt-5",
+          "snippetLength": 2516
+        },
+        {
+          "title": "Models - OpenAI API",
+          "url": "https://platform.openai.com/docs/models",
+          "snippetLength": 3881
+        },
+        {
+          "title": "gpt-5 - AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/openai/gpt-5",
+          "snippetLength": 3974
+        },
+        {
+          "title": "model_spec/model_spec.md at main · openai/model_spec",
+          "url": "https://github.com/openai/model_spec/blob/main/model_spec.md",
+          "snippetLength": 5365
+        },
+        {
+          "title": "GPT-5 - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GPT-5",
+          "snippetLength": 4408
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:36.504Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Intended Use\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Primary intended uses\n2. Primary intended users\n3. Out-of-scope use cases\n  Aggregated Resources:\n  R..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 21806,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:38.996Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5202,
+        "completion_tokens": 113,
+        "total_tokens": 5315,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 391,
+      "responsePreview": "{\n  \"Primary intended uses\": {\n    \"score\": 1,\n    \"explanation\": \"GPT-5 is our flagship model for coding, reasoning, and agentic tasks across domains.\"\n  },\n  \"Primary intended users\": {\n    \"score\": 1,\n    \"explanation\": \"GPT-5 is used in ChatGPT... and accessible via the OpenAI API.\"\n  },\n  \"Out-of-scope use cases\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:40.998Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Critical Risk\"\n          such as CBRN (Chemical, Biological, Radiological or Nuclear), Cyber Risk, Harmful Manipulation, Child Safety Evaluations, Privacy Risks. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:41.516Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "[PDF] GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum",
+          "url": "https://cdn.openai.com/pdf/4173ec8d-1229-47db-96de-06d87147e07e/5_1_system_card.pdf",
+          "snippetLength": 4437
+        },
+        {
+          "title": "Safety",
+          "url": "https://openai.com/safety/",
+          "snippetLength": 4684
+        },
+        {
+          "title": "OpenAI o1 System Card",
+          "url": "https://arxiv.org/html/2412.16720",
+          "snippetLength": 4285
+        },
+        {
+          "title": "OpenAI - The Midas Project",
+          "url": "https://www.themidasproject.com/watchtower/openai-091224",
+          "snippetLength": 754
+        },
+        {
+          "title": "OpenAI hits the biorisk alarm with Agent - Transformer",
+          "url": "https://www.transformernews.ai/p/openai-hits-biorisk-alarm-chatgpt-agent",
+          "snippetLength": 4948
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:41.517Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Critical Risk\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. CBRN (Chemical, Biological, Radiological or Nuclear)\n2. Cyber Risk\n3. Harmful Manipulation\n4. Child ..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 20875,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:46.069Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4674,
+        "completion_tokens": 228,
+        "total_tokens": 4902,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 863,
+      "responsePreview": "{\n  \"CBRN (Chemical, Biological, Radiological or Nuclear)\": {\n    \"score\": 1,\n    \"explanation\": \"On September 12, 2024, OpenAI released the preparedness scorecard for their newest model, o1. This model was notable as it was the first to receive a 'medium' score for CBRN risks.\"\n  },\n  \"Cyber Risk\": {\n    \"score\": 1,\n    \"explanation\": \"evaluations of near-final checkpoints indicate that, like their GPT-5 predecessor models, GPT-5.1 models do not have a plausible cybersecurity risk.\"\n  },\n  \"Har"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:48.071Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Safety Evaluation\"\n          such as Refusals, Disallowed Content Handling, Sycophancy, Jailbreak, Hallucinations, Deception Behaviors, Fairness & Bias Evaluations (incl. BBQ), Adversarial Robustness, Red Teaming Results. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:48.723Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "[PDF] ChatGPT Agent System Card - OpenAI",
+          "url": "https://cdn.openai.com/pdf/6bcccca6-3b64-43cb-a66e-4647073142d7/chatgpt_agent_system_card_launch.pdf",
+          "snippetLength": 4316
+        },
+        {
+          "title": "Safety evaluations hub | OpenAI",
+          "url": "https://openai.com/safety/evaluations-hub/",
+          "snippetLength": 5515
+        },
+        {
+          "title": "OpenAI o1 System Card",
+          "url": "https://arxiv.org/html/2412.16720",
+          "snippetLength": 4531
+        },
+        {
+          "title": "GPT-5 Technical Overview. Safety, Capabilities, and Factuality Enhancements. OpenAI latest GPT 5 LLM",
+          "url": "https://www.youtube.com/watch?v=u1XytIOZvf0",
+          "snippetLength": 4590
+        },
+        {
+          "title": "Towards Safer Chatbots: A Framework for Policy Compliance ...",
+          "url": "https://arxiv.org/html/2502.01436",
+          "snippetLength": 5109
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:48.723Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Safety Evaluation\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Refusals\n2. Disallowed Content Handling\n3. Sycophancy\n4. Jailbreak\n5. Hallucinations\n6. Deceptio..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 25850,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:55.470Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5626,
+        "completion_tokens": 357,
+        "total_tokens": 5983,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1402,
+      "responsePreview": "{\n  \"Refusals\": {\n    \"score\": 1,\n    \"explanation\": \"We trained the model to refuse such harmful or disallowed tasks.\"\n  },\n  \"Disallowed Content Handling\": {\n    \"score\": 1,\n    \"explanation\": \"These evaluations check that the model does not comply with requests for disallowed content that violates OpenAI’s policies.\"\n  },\n  \"Sycophancy\": {\n    \"score\": 1,\n    \"explanation\": \"GPT5 is supposedly less excessively agreeable.\"\n  },\n  \"Jailbreak\": {\n    \"score\": 1,\n    \"explanation\": \"We evaluate t"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:57.472Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for GPT-5 by OpenAI, focusing on \"Risk Mitigations\"\n          such as Risk Mitigations. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from OpenAI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:58.156Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Models - OpenAI API",
+          "url": "https://platform.openai.com/docs/models",
+          "snippetLength": 3902
+        },
+        {
+          "title": "Safety",
+          "url": "https://openai.com/safety/",
+          "snippetLength": 4684
+        },
+        {
+          "title": "model_spec/model_spec.md at main · openai/model_spec",
+          "url": "https://github.com/openai/model_spec/blob/main/model_spec.md",
+          "snippetLength": 5490
+        },
+        {
+          "title": "Safety Stacks for GPT-5: From Red Teaming to Runtime Guardrails",
+          "url": "https://eonsr.com/gpt-5-safety-stacks/",
+          "snippetLength": 4895
+        },
+        {
+          "title": "GPT-5 Technical Overview. Safety, Capabilities, and Factuality Enhancements. OpenAI latest GPT 5 LLM",
+          "url": "https://www.youtube.com/watch?v=u1XytIOZvf0",
+          "snippetLength": 4702
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:58.156Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for GPT-5, specifically the \"Risk Mitigations\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Risk Mitigations\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: https://platform.openai.com/d..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 25223,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:31:59.690Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5466,
+        "completion_tokens": 42,
+        "total_tokens": 5508,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 169,
+      "responsePreview": "{\n  \"Risk Mitigations\": {\n    \"score\": 1,\n    \"explanation\": \"We worked with internal red teamers to identify new challenges and inform corresponding mitigations.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:04.693Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Model Details\"\n          such as Model overview, Organization developing the model, Model Version, Model Release Date, Model Version Progression, Model Architecture, Model Dependencies, Paper and relevant links, Model Distribution Forms. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:05.428Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "GitHub - QwenLM/Qwen3: Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen3",
+          "snippetLength": 3530
+        },
+        {
+          "title": "Qwen",
+          "url": "https://en.wikipedia.org/wiki/Qwen",
+          "snippetLength": 4012
+        },
+        {
+          "title": "Welcome to Qwen!¶",
+          "url": "https://qwen.readthedocs.io",
+          "snippetLength": 1773
+        },
+        {
+          "title": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1",
+          "snippetLength": 5036
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:05.429Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Model Details\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Model overview\n2. Organization developing the model\n3. Model Version\n4. Model Release Date\n5. Mo..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 19934,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:12.185Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4756,
+        "completion_tokens": 376,
+        "total_tokens": 5132,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1370,
+      "responsePreview": "{\n  \"Model overview\": {\n    \"score\": 1,\n    \"explanation\": \"Qwen is the large language model and large multimodal model series of the Qwen Team, Alibaba Group.\"\n  },\n  \"Organization developing the model\": {\n    \"score\": 1,\n    \"explanation\": \"Qwen is the large language model and large multimodal model series of the Qwen Team, Alibaba Group.\"\n  },\n  \"Model Version\": {\n    \"score\": 1,\n    \"explanation\": \"The latest version, Qwen3, has the following features: Dense and Mixture-of-Experts (MoE) mode"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:14.187Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Model Inputs & Outputs\"\n          such as Inputs, Outputs, Token Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:14.627Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "GitHub - QwenLM/Qwen3: Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen3",
+          "snippetLength": 3707
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        },
+        {
+          "title": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1",
+          "snippetLength": 4926
+        },
+        {
+          "title": "Qwen LLMs - - Alibaba Cloud Documentation Center",
+          "url": "https://www.alibabacloud.com/help/en/model-studio/what-is-qwen-llm",
+          "snippetLength": 3112
+        },
+        {
+          "title": "Qwen3: Think Deeper, Act Faster | Qwen",
+          "url": "https://qwenlm.github.io/blog/qwen3/",
+          "snippetLength": 4091
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:14.627Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Model Inputs & Outputs\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Inputs\n2. Outputs\n3. Token Count\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: htt..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 21248,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:17.446Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5404,
+        "completion_tokens": 116,
+        "total_tokens": 5520,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 402,
+      "responsePreview": "{\n  \"Inputs\": {\n    \"score\": 1,\n    \"explanation\": \"model_inputs = tokenizer([text], return_tensors=\\\"pt\\\").to(model.device)\"\n  },\n  \"Outputs\": {\n    \"score\": 1,\n    \"explanation\": \"content = tokenizer.decode(output_ids, skip_special_tokens=True)\"\n  },\n  \"Token Count\": {\n    \"score\": 1,\n    \"explanation\": \"Qwen-Turbo is a fast and cost-effective model with a maximum context length of up to 1M\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:19.447Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Model Data\"\n          such as Training Dataset, Training Data Processing, Knowledge Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:19.966Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "GitHub - QwenLM/Qwen3: Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen3",
+          "snippetLength": 3812
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        },
+        {
+          "title": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1",
+          "snippetLength": 5085
+        },
+        {
+          "title": "Model announcements - Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/help/en/model-studio/model-announcements",
+          "snippetLength": 3980
+        },
+        {
+          "title": "Qwen3: Think Deeper, Act Faster | Qwen",
+          "url": "https://qwenlm.github.io/blog/qwen3/",
+          "snippetLength": 4259
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:19.967Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Model Data\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Training Dataset\n2. Training Data Processing\n3. Knowledge Count\n  Aggregated Resources:\n  Resource ..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 22597,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:22.860Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5402,
+        "completion_tokens": 125,
+        "total_tokens": 5527,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 462,
+      "responsePreview": "{\n  \"Training Dataset\": {\n    \"score\": 1,\n    \"explanation\": \"Qwen3 uses nearly twice that amount, with approximately 36 trillion tokens covering 119 languages and dialects.\"\n  },\n  \"Training Data Processing\": {\n    \"score\": 1,\n    \"explanation\": \"We used Qwen2.5-VL to extract text from these documents and Qwen2.5 to improve the quality of the extracted content.\"\n  },\n  \"Knowledge Count\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:24.862Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Model Implementation and Sustainability\"\n          such as Hardware Used During Training & Inference, Software Frameworks & Tooling, Energy Use/ Sustainability Metrics. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:25.392Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Qwen",
+          "url": "https://en.wikipedia.org/wiki/Qwen",
+          "snippetLength": 4048
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen3: Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen3",
+          "snippetLength": 3628
+        },
+        {
+          "title": "Welcome to Qwen!¶",
+          "url": "https://qwen.readthedocs.io",
+          "snippetLength": 1773
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        },
+        {
+          "title": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1",
+          "snippetLength": 5050
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:25.392Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Model Implementation and Sustainability\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Hardware Used During Training & Inference\n2. Software Frameworks & Too..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 20024,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:27.850Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4711,
+        "completion_tokens": 110,
+        "total_tokens": 4821,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 407,
+      "responsePreview": "{\n  \"Hardware Used During Training & Inference\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Software Frameworks & Tooling\": {\n    \"score\": 1,\n    \"explanation\": \"The instructions for running LLM locally on CPU and GPU, with frameworks like llama.cpp and Ollama\"\n  },\n  \"Energy Use/ Sustainability Metrics\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:29.852Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Intended Use\"\n          such as Primary intended uses, Primary intended users, Out-of-scope use cases. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:30.617Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Qwen",
+          "url": "https://en.wikipedia.org/wiki/Qwen",
+          "snippetLength": 3944
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen3: Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen3",
+          "snippetLength": 3605
+        },
+        {
+          "title": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1",
+          "snippetLength": 4825
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        },
+        {
+          "title": "Qwen LLMs - - Alibaba Cloud Documentation Center",
+          "url": "https://www.alibabacloud.com/help/en/model-studio/what-is-qwen-llm",
+          "snippetLength": 3274
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:30.617Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Intended Use\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Primary intended uses\n2. Primary intended users\n3. Out-of-scope use cases\n  Aggregated Resources:..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 21119,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:32.989Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5419,
+        "completion_tokens": 136,
+        "total_tokens": 5555,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 603,
+      "responsePreview": "{\n  \"Primary intended uses\": {\n    \"score\": 1,\n    \"explanation\": \"Qwen Max model has been updated with significant improvements in agent programming capabilities, agent tool usage, logical reasoning, code-based problem solving, and text reasoning.\"\n  },\n  \"Primary intended users\": {\n    \"score\": 1,\n    \"explanation\": \"Alibaba Cloud Model Studio is specially designed for developing generative AI, allowing users to experience and access Alibaba Cloud's latest industry-leading foundation models.\"\n"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:34.990Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Critical Risk\"\n          such as CBRN (Chemical, Biological, Radiological or Nuclear), Cyber Risk, Harmful Manipulation, Child Safety Evaluations, Privacy Risks. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:35.753Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Qwen",
+          "url": "https://en.wikipedia.org/wiki/Qwen",
+          "snippetLength": 3974
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        },
+        {
+          "title": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1",
+          "snippetLength": 5448
+        },
+        {
+          "title": "[2505.09388] Qwen3 Technical Report - arXiv",
+          "url": "https://arxiv.org/abs/2505.09388",
+          "snippetLength": 3063
+        },
+        {
+          "title": "Qwen3-235B-A22B-Instruct-2507 Security Report",
+          "url": "https://promptfoo.dev/models/reports/qwen3-235b-a22b-2507",
+          "snippetLength": 5520
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:35.753Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Critical Risk\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. CBRN (Chemical, Biological, Radiological or Nuclear)\n2. Cyber Risk\n3. Harmful Manipulation\n4. Ch..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 23550,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:40.156Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5173,
+        "completion_tokens": 166,
+        "total_tokens": 5339,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 634,
+      "responsePreview": "{\n  \"CBRN (Chemical, Biological, Radiological or Nuclear)\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Cyber Risk\": {\n    \"score\": 1,\n    \"explanation\": \"Tests handling of cybercrime-related content\"\n  },\n  \"Harmful Manipulation\": {\n    \"score\": 1,\n    \"explanation\": \"Tests handling of malicious prompts from the BeaverTails dataset\"\n  },\n  \"Child Safety Evaluations\": {\n    \"score\": 1,\n    \"explanation\": \"Tests handling of child exploitation content\"\n  },\n  \"Privacy "
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:42.158Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Safety Evaluation\"\n          such as Refusals, Disallowed Content Handling, Sycophancy, Jailbreak, Hallucinations, Deception Behaviors, Fairness & Bias Evaluations (incl. BBQ), Adversarial Robustness, Red Teaming Results. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:42.695Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Qwen",
+          "url": "https://en.wikipedia.org/wiki/Qwen",
+          "snippetLength": 4110
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        },
+        {
+          "title": "Welcome to Qwen!¶",
+          "url": "https://qwen.readthedocs.io/en/latest/",
+          "snippetLength": 1773
+        },
+        {
+          "title": "[PDF] Qwen3 Technical Report | UsionMedia",
+          "url": "https://www.usionmedia.com/wp-content/uploads/2025/08/Qwen3_Technical_Report.pdf",
+          "snippetLength": 3873
+        },
+        {
+          "title": "Qwen3: Think Deeper, Act Faster | Qwen",
+          "url": "https://qwenlm.github.io/blog/qwen3/",
+          "snippetLength": 4340
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:42.696Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Safety Evaluation\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Refusals\n2. Disallowed Content Handling\n3. Sycophancy\n4. Jailbreak\n5. Hallucinations\n6. Dece..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 19688,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:49.970Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 4782,
+        "completion_tokens": 267,
+        "total_tokens": 5049,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 853,
+      "responsePreview": "{\n  \"Refusals\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Disallowed Content Handling\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Sycophancy\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Jailbreak\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Hallucinations\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Deception Behaviors\": {\n    \"score\": 0,\n    \"ex"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:51.971Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Qwen3-Max by Alibaba, focusing on \"Risk Mitigations\"\n          such as Risk Mitigations. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Alibaba and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:52.478Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Qwen",
+          "url": "https://en.wikipedia.org/wiki/Qwen",
+          "snippetLength": 4095
+        },
+        {
+          "title": "GitHub - QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+          "url": "https://github.com/QwenLM/Qwen/",
+          "snippetLength": 3831
+        },
+        {
+          "title": "Alibaba Cloud Model Studio",
+          "url": "https://www.alibabacloud.com/en/product/modelstudio?_p_lc=1",
+          "snippetLength": 5599
+        },
+        {
+          "title": "Explore | alphaXiv",
+          "url": "https://www.alphaxiv.org/?organizations=Alibaba+Cloud",
+          "snippetLength": 4996
+        },
+        {
+          "title": "Qwen3-Max: Just Scale it - Alibaba Cloud Community",
+          "url": "https://www.alibabacloud.com/blog/602621",
+          "snippetLength": 4493
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:52.478Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Qwen3-Max, specifically the \"Risk Mitigations\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Risk Mitigations\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: https://en.wikipedia.org/..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 24579,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:53.656Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5337,
+        "completion_tokens": 31,
+        "total_tokens": 5368,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 94,
+      "responsePreview": "{\n  \"Risk Mitigations\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:58.659Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Model Details\"\n          such as Model overview, Organization developing the model, Model Version, Model Release Date, Model Version Progression, Model Architecture, Model Dependencies, Paper and relevant links, Model Distribution Forms. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:59.318Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "llama-models/models/llama4/MODEL_CARD.md at main · meta-llama/llama-models",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+          "snippetLength": 4217
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/overview/",
+          "snippetLength": 892
+        },
+        {
+          "title": "The Llama 4 herd: The beginning of a new era of natively ...",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+          "snippetLength": 4835
+        },
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4124
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/get-started/",
+          "snippetLength": 892
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:32:59.318Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Model Details\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Model overview\n2. Organization developing the model\n3. Model Version\n4. Model Release Dat..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 16831,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:08.300Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 3864,
+        "completion_tokens": 319,
+        "total_tokens": 4183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1110,
+      "responsePreview": "{\n  \"Model overview\": {\n    \"score\": 1,\n    \"explanation\": \"The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences.\"\n  },\n  \"Organization developing the model\": {\n    \"score\": 1,\n    \"explanation\": \"Model developer: Meta\"\n  },\n  \"Model Version\": {\n    \"score\": 1,\n    \"explanation\": \"Llama 4 Maverick (17Bx128E)\"\n  },\n  \"Model Release Date\": {\n    \"score\": 1,\n    \"explanation\": \"Release Date: 2025-05-14\"\n  },\n  \"Model Version Progression\": {\n"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:10.302Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Model Inputs & Outputs\"\n          such as Inputs, Outputs, Token Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:11.064Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "llama-models/models/llama4/MODEL_CARD.md at main · meta-llama/llama-models",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+          "snippetLength": 4200
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/overview/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4619
+        },
+        {
+          "title": "Llama-4-maverick | AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/meta/llama-4-maverick",
+          "snippetLength": 4315
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/get-started/",
+          "snippetLength": 892
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:11.064Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Model Inputs & Outputs\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Inputs\n2. Outputs\n3. Token Count\n  Aggregated Resources:\n  Resource 1:\nTitle: \nU..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 16597,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:14.852Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 3881,
+        "completion_tokens": 109,
+        "total_tokens": 3990,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 391,
+      "responsePreview": "{\n  \"Inputs\": {\n    \"score\": 1,\n    \"explanation\": \"Llama 4 models are natively multimodal, capable of processing and integrating various data types, including text and images.\"\n  },\n  \"Outputs\": {\n    \"score\": 1,\n    \"explanation\": \"Input text and images and get a text output.\"\n  },\n  \"Token Count\": {\n    \"score\": 1,\n    \"explanation\": \"Supports a context length of 512,000 tokens.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:16.854Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Model Data\"\n          such as Training Dataset, Training Data Processing, Knowledge Count. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:17.310Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "llama-models/models/llama4/MODEL_CARD.md at main · meta-llama/llama-models",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+          "snippetLength": 4181
+        },
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4278
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/get-started/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/overview/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Meta Llama - Hugging Face",
+          "url": "https://huggingface.co/meta-llama",
+          "snippetLength": 2871
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:17.310Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Model Data\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Training Dataset\n2. Training Data Processing\n3. Knowledge Count\n  Aggregated Resources:\n  Re..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 14795,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:20.279Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 3527,
+        "completion_tokens": 113,
+        "total_tokens": 3640,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 423,
+      "responsePreview": "{\n  \"Training Dataset\": {\n    \"score\": 1,\n    \"explanation\": \"Llama 4 Maverick was pretrained on ~22 trillion tokens of multimodal data from a mix of publicly available, licensed data and information from Meta’s products.\"\n  },\n  \"Training Data Processing\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Knowledge Count\": {\n    \"score\": 1,\n    \"explanation\": \"Knowledge cutoff: August 2024\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:22.281Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Model Implementation and Sustainability\"\n          such as Hardware Used During Training & Inference, Software Frameworks & Tooling, Energy Use/ Sustainability Metrics. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:22.850Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "llama-models/models/llama4/MODEL_CARD.md at main · meta-llama/llama-models",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+          "snippetLength": 4292
+        },
+        {
+          "title": "The Llama 4 herd: The beginning of a new era of natively ...",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+          "snippetLength": 5050
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/get-started/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/overview/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4278
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:22.850Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Model Implementation and Sustainability\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Hardware Used During Training & Inference\n2. Software Framework..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 17217,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:26.216Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 3868,
+        "completion_tokens": 151,
+        "total_tokens": 4019,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 589,
+      "responsePreview": "{\n  \"Hardware Used During Training & Inference\": {\n    \"score\": 1,\n    \"explanation\": \"Model pre-training utilized a cumulative of **7.38M** GPU hours of computation on H100-80GB (TDP of 700W) type hardware.\"\n  },\n  \"Software Frameworks & Tooling\": {\n    \"score\": 1,\n    \"explanation\": \"We used custom training libraries, Meta's custom built GPU clusters, and production infrastructure for pretraining.\"\n  },\n  \"Energy Use/ Sustainability Metrics\": {\n    \"score\": 1,\n    \"explanation\": \"Estimated tot"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:28.218Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Intended Use\"\n          such as Primary intended uses, Primary intended users, Out-of-scope use cases. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:28.843Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/overview/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4278
+        },
+        {
+          "title": "llama-models/models/llama4/MODEL_CARD.md at main · meta-llama/llama-models",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+          "snippetLength": 4697
+        },
+        {
+          "title": "The Llama 4 herd: The beginning of a new era of natively ...",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+          "snippetLength": 5144
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/get-started/",
+          "snippetLength": 892
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:28.843Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Intended Use\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Primary intended uses\n2. Primary intended users\n3. Out-of-scope use cases\n  Aggregated Res..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 17623,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:31.135Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 3878,
+        "completion_tokens": 117,
+        "total_tokens": 3995,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 466,
+      "responsePreview": "{\n  \"Primary intended uses\": {\n    \"score\": 1,\n    \"explanation\": \"Llama 4 is intended for commercial and research use in multiple languages.\"\n  },\n  \"Primary intended users\": {\n    \"score\": 1,\n    \"explanation\": \"Whether you’re a developer building on top of our models, an enterprise integrating them into your workflows.\"\n  },\n  \"Out-of-scope use cases\": {\n    \"score\": 1,\n    \"explanation\": \"Use in any manner that violates applicable laws or regulations.\"\n  }\n}"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:33.136Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Critical Risk\"\n          such as CBRN (Chemical, Biological, Radiological or Nuclear), Cyber Risk, Harmful Manipulation, Child Safety Evaluations, Privacy Risks. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:33.710Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "meta-llama/Llama-4-Maverick...",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
+          "snippetLength": 5525
+        },
+        {
+          "title": "llama-models/models/llama4/USE_POLICY.md at main · meta-llama/llama-models",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/USE_POLICY.md",
+          "snippetLength": 4764
+        },
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4557
+        },
+        {
+          "title": "llama4:17b-maverick-128e-instruct-q8_0/license",
+          "url": "https://ollama.com/library/llama4:17b-maverick-128e-instruct-q8_0/blobs/24ca191a372b",
+          "snippetLength": 4741
+        },
+        {
+          "title": "meta-llama/Llama-4-Maverick...",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "snippetLength": 5438
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:33.711Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Critical Risk\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. CBRN (Chemical, Biological, Radiological or Nuclear)\n2. Cyber Risk\n3. Harmful Manipulatio..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 26928,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:38.350Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5668,
+        "completion_tokens": 210,
+        "total_tokens": 5878,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 887,
+      "responsePreview": "{\n  \"CBRN (Chemical, Biological, Radiological or Nuclear)\": {\n    \"score\": 1,\n    \"explanation\": \"To assess risks related to proliferation of chemical and biological weapons for Llama 4, we applied expert-designed and other targeted evaluations...\"\n  },\n  \"Cyber Risk\": {\n    \"score\": 1,\n    \"explanation\": \"Our cyber evaluations investigated whether Llama 4 is sufficiently capable to enable catastrophic threat scenario outcomes.\"\n  },\n  \"Harmful Manipulation\": {\n    \"score\": 0,\n    \"explanation\":"
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:40.352Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Safety Evaluation\"\n          such as Refusals, Disallowed Content Handling, Sycophancy, Jailbreak, Hallucinations, Deception Behaviors, Fairness & Bias Evaluations (incl. BBQ), Adversarial Robustness, Red Teaming Results. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:40.969Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "meta-llama/Llama-4-Maverick-17B ... - Hugging Face",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+          "snippetLength": 4778
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/get-started/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Documentation | Llama",
+          "url": "https://www.llama.com/docs/overview/",
+          "snippetLength": 892
+        },
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4737
+        },
+        {
+          "title": "meta-llama/Llama-4-Maverick...",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
+          "snippetLength": 4989
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:40.969Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Safety Evaluation\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Refusals\n2. Disallowed Content Handling\n3. Sycophancy\n4. Jailbreak\n5. Hallucinations\n..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 18139,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:46.353Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 3919,
+        "completion_tokens": 323,
+        "total_tokens": 4242,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 1185,
+      "responsePreview": "{\n  \"Refusals\": {\n    \"score\": 1,\n    \"explanation\": \"We put a great emphasis on driving down model refusals to benign prompts for Llama 4.\"\n  },\n  \"Disallowed Content Handling\": {\n    \"score\": 1,\n    \"explanation\": \"We provide the community with system level protections - like Llama Guard, Prompt Guard and Code Shield.\"\n  },\n  \"Sycophancy\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n  \"Jailbreak\": {\n    \"score\": 0,\n    \"explanation\": \"did not mention this idea\"\n  },\n "
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:48.355Z",
+    "service": "perplexity",
+    "type": "request",
+    "data": {
+      "query": "Find official model card documentation and technical details\n          for Llama 4 Maverick by Meta AI, focusing on \"Risk Mitigations\"\n          such as Risk Mitigations. Include authoritative links to documentation,\n          technical papers, GitHub, APIs, model cards, release notes, or blog posts\n          from Meta AI and trusted sources.",
+      "max_results": 5,
+      "max_tokens_per_page": 1024
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:48.739Z",
+    "service": "perplexity",
+    "type": "response",
+    "data": {
+      "resultsCount": 5,
+      "results": [
+        {
+          "title": "Meta Llama 4 Maverick (New) - Oracle Help Center",
+          "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/meta-llama-4-maverick.htm",
+          "snippetLength": 4278
+        },
+        {
+          "title": "Llama-4-maverick | AI/ML API Documentation",
+          "url": "https://docs.aimlapi.com/api-references/text-models-llm/meta/llama-4-maverick",
+          "snippetLength": 4265
+        },
+        {
+          "title": "meta-llama/Llama-4-Maverick...",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
+          "snippetLength": 5471
+        },
+        {
+          "title": "The Llama 4 herd: The beginning of a new era of natively ...",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+          "snippetLength": 5235
+        },
+        {
+          "title": "GitHub - meta-llama/llama: Inference code for Llama models",
+          "url": "https://github.com/meta-llama/llama",
+          "snippetLength": 4685
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:48.739Z",
+    "service": "openai",
+    "type": "request",
+    "data": {
+      "model": "gpt-4o-mini",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a helpful assistant that analyzes aggregated text from multiple sources and returns JSON responses only...."
+        },
+        {
+          "role": "user",
+          "content": "You are analyzing model card documentation for Llama 4 Maverick, specifically the \"Risk Mitigations\" section.\n  You have been provided with multiple resources (documentation, articles, model cards, etc.) that contain information about this model.\n  Analyze ALL resources together as an aggregate to determine if each subsection is mentioned or discussed across any of these resources.\n  Subsections to check:\n  1. Risk Mitigations\n  Aggregated Resources:\n  Resource 1:\nTitle: \nURL: https://docs.oracl..."
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "temperature": 0.1,
+      "promptLength": 25617,
+      "resourcesCount": 5
+    }
+  },
+  {
+    "timestamp": "2025-11-23T04:33:50.357Z",
+    "service": "openai",
+    "type": "response",
+    "data": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "usage": {
+        "prompt_tokens": 5556,
+        "completion_tokens": 58,
+        "total_tokens": 5614,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "responseLength": 236,
+      "responsePreview": "{\n  \"Risk Mitigations\": {\n    \"score\": 1,\n    \"explanation\": \"We built Llama 4 with the best practices outlined in our Developer Use Guide: AI Protections. This includes integrating mitigations at each layer of model development.\"\n  }\n}"
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Details",
+    "sectionId": "model-details",
+    "subsectionChecks": {
+      "Model overview": 1,
+      "Organization developing the model": 1,
+      "Model Version": 1,
+      "Model Release Date": 1,
+      "Model Version Progression": 1,
+      "Model Architecture": 1,
+      "Model Dependencies": 1,
+      "Paper and relevant links": 1,
+      "Model Distribution Forms": 1
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Inputs & Outputs",
+    "sectionId": "model-inputs-outputs",
+    "subsectionChecks": {
+      "Inputs": 1,
+      "Outputs": 1,
+      "Token Count": 1
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Data",
+    "sectionId": "model-data",
+    "subsectionChecks": {
+      "Training Dataset": 1,
+      "Training Data Processing": 1,
+      "Knowledge Count": 0
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Implementation and Sustainability",
+    "sectionId": "model-implementation-sustainability",
+    "subsectionChecks": {
+      "Hardware Used During Training & Inference": 1,
+      "Software Frameworks & Tooling": 1,
+      "Energy Use/ Sustainability Metrics": 1
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Intended Use",
+    "sectionId": "intended-use",
+    "subsectionChecks": {
+      "Primary intended uses": 1,
+      "Primary intended users": 0,
+      "Out-of-scope use cases": 1
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Critical Risk",
+    "sectionId": "critical-risk",
+    "subsectionChecks": {
+      "CBRN (Chemical, Biological, Radiological or Nuclear)": 1,
+      "Cyber Risk": 1,
+      "Harmful Manipulation": 0,
+      "Child Safety Evaluations": 1,
+      "Privacy Risks": 0
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Safety Evaluation",
+    "sectionId": "safety-evaluation",
+    "subsectionChecks": {
+      "Refusals": 1,
+      "Disallowed Content Handling": 1,
+      "Sycophancy": 0,
+      "Jailbreak": 1,
+      "Hallucinations": 1,
+      "Deception Behaviors": 0,
+      "Fairness & Bias Evaluations (incl. BBQ)": 0,
+      "Adversarial Robustness": 1,
+      "Red Teaming Results": 1
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Risk Mitigations",
+    "sectionId": "risk-mitigations",
+    "subsectionChecks": {
+      "Risk Mitigations": 1
+    }
+  }
+]

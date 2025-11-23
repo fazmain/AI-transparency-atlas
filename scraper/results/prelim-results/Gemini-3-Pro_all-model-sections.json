@@ -1,0 +1,202 @@
+[
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Details",
+    "sectionId": "model-details",
+    "subsectionChecks": {
+      "Model overview": {
+        "score": 1,
+        "explanation": "Gemini 3 Pro is the next generation in the Gemini series of models, a suite of highly-capable, natively multimodal, reasoning models."
+      },
+      "Organization developing the model": {
+        "score": 1,
+        "explanation": "Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind."
+      },
+      "Model Version": {
+        "score": 1,
+        "explanation": "Gemini 3 Pro Model Card published: November, 2025."
+      },
+      "Model Release Date": {
+        "score": 1,
+        "explanation": "Model card published: November, 2025."
+      },
+      "Model Version Progression": {
+        "score": 1,
+        "explanation": "Gemini models are available in either stable, preview, latest, or experimental versions."
+      },
+      "Model Architecture": {
+        "score": 1,
+        "explanation": "Gemini 3 Pro is a sparse mixture-of-experts (MoE) transformer-based model."
+      },
+      "Model Dependencies": {
+        "score": 1,
+        "explanation": "This model is not a modification or a fine-tune of a prior model."
+      },
+      "Paper and relevant links": {
+        "score": 1,
+        "explanation": "Link: https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+      },
+      "Model Distribution Forms": {
+        "score": 1,
+        "explanation": "The Gemini family of models, including Gemini 3 Pro, are distributed in the following channels."
+      }
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Inputs & Outputs",
+    "sectionId": "model-inputs-outputs",
+    "subsectionChecks": {
+      "Inputs": {
+        "score": 1,
+        "explanation": "Text strings (e.g., a question, a prompt, document(s) to be summarized), images, audio, and video files, with a token context window of up to 1M."
+      },
+      "Outputs": {
+        "score": 1,
+        "explanation": "Text, with a 64K token output."
+      },
+      "Token Count": {
+        "score": 1,
+        "explanation": "The context window defines how much input you can provide and how much output the model can generate."
+      }
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Data",
+    "sectionId": "model-data",
+    "subsectionChecks": {
+      "Training Dataset": {
+        "score": 1,
+        "explanation": "The pre-training dataset was a large-scale, diverse collection of data encompassing a wide range of domains and modalities."
+      },
+      "Training Data Processing": {
+        "score": 1,
+        "explanation": "Data filtering and preprocessing included techniques such as deduplication, honoring robots.txt, safety filtering in-line with Google's commitment to advancing AI safely and responsibly."
+      },
+      "Knowledge Count": {
+        "score": 0,
+        "explanation": "did not mention this idea"
+      }
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Model Implementation and Sustainability",
+    "sectionId": "model-implementation-sustainability",
+    "subsectionChecks": {
+      "Hardware Used During Training & Inference": {
+        "score": 1,
+        "explanation": "Gemini 3 Pro was trained using Google's Tensor Processing Units (TPUs)."
+      },
+      "Software Frameworks & Tooling": {
+        "score": 1,
+        "explanation": "Training was done using JAX and ML Pathways."
+      },
+      "Energy Use/ Sustainability Metrics": {
+        "score": 1,
+        "explanation": "The efficiencies gained through the use of TPUs are aligned with Google's commitment to operate sustainably."
+      }
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Intended Use",
+    "sectionId": "intended-use",
+    "subsectionChecks": {
+      "Primary intended uses": {
+        "score": 1,
+        "explanation": "It is particularly well-suited for applications that require: agentic performance, advanced coding, long context and/or multimodal understanding, and/or algorithmic development."
+      },
+      "Primary intended users": {
+        "score": 0,
+        "explanation": "did not mention this idea"
+      },
+      "Out-of-scope use cases": {
+        "score": 1,
+        "explanation": "the model should not be integrated into certain systems (also found in Google’s Generative AI Prohibited Use Policy)"
+      }
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Critical Risk",
+    "sectionId": "critical-risk",
+    "subsectionChecks": {
+      "CBRN (Chemical, Biological, Radiological or Nuclear)": {
+        "score": 1,
+        "explanation": "The model provides accurate and occasionally actionable information but generally fails to offer novel or sufficiently complete and detailed instructions."
+      },
+      "Cyber Risk": {
+        "score": 1,
+        "explanation": "The safety approach was really comprehensive, built with their safety teams, aligned with Google's AI principles."
+      },
+      "Harmful Manipulation": {
+        "score": 1,
+        "explanation": "Safety policies aim to prevent our Generative AI models from generating harmful content, including: content related to child sexual abuse material and exploitation."
+      },
+      "Child Safety Evaluations": {
+        "score": 1,
+        "explanation": "For child safety evaluations, Gemini 3 Pro satisfied required launch thresholds, which were developed by expert teams to protect children online."
+      },
+      "Privacy Risks": {
+        "score": 0,
+        "explanation": "did not mention this idea"
+      }
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Safety Evaluation",
+    "sectionId": "safety-evaluation",
+    "subsectionChecks": {
+      "Refusals": {
+        "score": 1,
+        "explanation": "Overall, Gemini 3 Pro outperforms Gemini 2.5 Pro across both safety and tone, while keeping unjustified refusals low."
+      },
+      "Disallowed Content Handling": {
+        "score": 1,
+        "explanation": "Gemini's safety policies aim to prevent our Generative AI models from generating harmful content, including: Content related to child sexual abuse material and exploitation."
+      },
+      "Sycophancy": {
+        "score": 0,
+        "explanation": "did not mention this idea"
+      },
+      "Jailbreak": {
+        "score": 1,
+        "explanation": "The main risks for Gemini 3 Pro are: a) jailbreak vulnerability (improved compared to Gemini 2.5 Pro but still an open research problem)."
+      },
+      "Hallucinations": {
+        "score": 1,
+        "explanation": "The model card specifically calls out agentic performance, advanced coding, long context reasoning, and algorithmic development... the usual foundation model issues are still there, primarily hallucinations."
+      },
+      "Deception Behaviors": {
+        "score": 0,
+        "explanation": "did not mention this idea"
+      },
+      "Fairness & Bias Evaluations (incl. BBQ)": {
+        "score": 1,
+        "explanation": "Safety policies aim to prevent harmful content generation, ensuring responsible AI use."
+      },
+      "Adversarial Robustness": {
+        "score": 1,
+        "explanation": "Adversarial testing is a method for systematically evaluating an ML model with the intent of learning how it behaves when provided with malicious or inadvertently harmful input."
+      },
+      "Red Teaming Results": {
+        "score": 1,
+        "explanation": "Human red teaming had specialists testing for harms and the outcome was pretty encouraging."
+      }
+    }
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "section": "Risk Mitigations",
+    "sectionId": "risk-mitigations",
+    "subsectionChecks": {
+      "Risk Mitigations": {
+        "score": 1,
+        "explanation": "Safety and responsibility was built into Gemini 3 Pro throughout the training and deployment lifecycle, including pre-training, post-training, and product-level mitigations."
+      }
+    }
+  }
+]

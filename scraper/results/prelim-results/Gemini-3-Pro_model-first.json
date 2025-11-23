@@ -1,0 +1,16 @@
+{
+  "model": "Gemini 3 Pro",
+  "section": "Model Details",
+  "sectionId": "model-details",
+  "subsectionChecks": {
+    "Model overview": 1,
+    "Organization developing the model": 1,
+    "Model Version": 1,
+    "Model Release Date": 1,
+    "Model Version Progression": 1,
+    "Model Architecture": 1,
+    "Model Dependencies": 1,
+    "Paper and relevant links": 1,
+    "Model Distribution Forms": 1
+  }
+}
