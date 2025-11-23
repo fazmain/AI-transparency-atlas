@@ -1,5 +1,3 @@
-# mit-hackathon-2025
-
 ## Setup & Usage
 
 1. Create a `.env` file with your `PERPLEXITY_API_KEY` and `OPENAI_API_KEY`.
